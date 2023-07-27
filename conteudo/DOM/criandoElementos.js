@@ -8,7 +8,7 @@ function addInput(){
     const newInput = document.createElement('input')
     newInput.type = 'text'
     newInput.name = 'claudio'
-
+ 
     newLi.appendChild(newInput)
     ul.appendChild(newLi) // assim fica: ul > newLi > newInput
 }
