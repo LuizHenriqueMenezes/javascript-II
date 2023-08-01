@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="jogoDaVelha.css">
+    <script src="jogoDaVelha.js" defer></script>
+</head>
+
+<body>
+
+        <ul id="names"></ul>
+        <ul id="name2"></ul>
+
+
+    <div id="divCenter">
+        <h1 id="title">Jogo da Velha</h1>
+        <div id="buttons">
+            <button type="button" onclick="names()" class="btn">Inserir Jogador 'X'</button>
+            <button type="button" onclick="name2()" class="btn">Inserir Jogador 'O'</button>
+            <button type="button" class="btn" id="reloadBtn">Reiniciar</button>
+        </div>
+        <div id="lines">
+            <div id="line1">
+                <input onclick="line1(this)" type="text" name="block" id="block1">
+                <input onclick="line1(this)" type="text" name="block" id="block2">
+                <input onclick="line1(this)" type="text" name="block" id="block3">
+            </div>
+            <div id="line2">
+                <input onclick="line1(this)" type="text" name="block" id="block4">
+                <input onclick="line1(this)" type="text" name="block" id="block5">
+                <input onclick="line1(this)" type="text" name="block" id="block6">
+            </div>
+            <div id="line3">
+                <input onclick="line1(this)" type="text" name="block" id="block7">
+                <input onclick="line1(this)" type="text" name="block" id="block8">
+                <input onclick="line1(this)" type="text" name="block" id="block9">
+            </div>
+        </div>
+
+        <ul id="turn"></ul>
+    </div>
+</body>
+
+</html>
